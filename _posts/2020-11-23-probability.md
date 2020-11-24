@@ -38,10 +38,10 @@ It can be easier to think of the conditional probability in terms of a machine l
 
 Imagine a logistic regression model that predicts whether or not a home will sell in the next 3 months based on the price of the house, the square footage, and the average price of a home in the area. That X (input) data is our evidence. The target is our Y. Our model makes a prediction about the probability of the home selling based on the input data.
 
-In other words, our model provides us the conditional probability of outcome *Y* given evidence *X*. Stated another way, this model provides us with *P(Y|X)*.
+In other words, our model provides us the conditional probability of outcome *Y* given evidence *X*. Stated another way, this model provides us with `P(Y|X)`.
 
 ### **Likelihood- P(X|Y)**
 
-In the case of estimating parameters, P(X|theta) we can think of it as the probability of observing our data if the parameter theta was the actual parameter describing the distribution.
+In the case of estimating parameters, `P(X|theta)` we can think of it as the probability of observing our data if the parameter theta was the actual parameter describing the distribution.
 
-So why is it called likelihood? This is because P(X|theta) is equal to L(theta|X). In other words, the likelihood of a paramter given the observed data is equal to the probability of observing the data given the parameter. 
+So why is it called likelihood? This is because `P(X|theta)` is equal to `L(theta|X)`. In other words, the likelihood of a paramter given the observed data is equal to the probability of observing the data given the parameter. 
