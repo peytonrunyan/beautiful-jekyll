@@ -19,6 +19,9 @@ comments: true
 [Understanding Bayes: A Look the Likelihood](https://alexanderetz.com/2015/04/15/understanding-bayes-a-look-at-the-likelihood/)
 
 [Probability concepts explained: Bayesian inference for parameter estimation](https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348)
+
+[Maximum Likelihood Estimation](https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1)
+
 ## **Concepts:**
 
 Assume that *Y* is our outcome and *X* is our input data. We can think of *X* as our *evidence* for a predicting an outcome. 
@@ -39,6 +42,6 @@ In other words, our model provides us the conditional probability of outcome *Y*
 
 ### **Likelihood- P(X|Y)**
 
-Likelihood gets deep. The fourth link goes in depth into likelihood. But we can think of it as the probability of our input data given our target. 
-
 In the case of estimating parameters, P(X|theta) we can think of it as the probability of observing our data if the parameter theta was the actual parameter describing the distribution.
+
+So why is it called likelihood? This is because P(X|theta) is equal to L(theta|X). In other words, the likelihood of a paramter given the observed data is equal to the probability of observing the data given the parameter. 
